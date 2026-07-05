@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Particle Heart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+
+<body>
+
+<canvas id="canvas"></canvas>
+
+<!-- Hidden SVG Heart -->
+<svg width="600" height="552" style="display:none;">
+    <path id="heart"
+    d="M300,500
+    C300,500 20,320 20,170
+    C20,70 100,0 180,0
+    C250,0 300,60 300,60
+    C300,60 350,0 420,0
+    C500,0 580,70 580,170
+    C580,320 300,500 300,500"/>
+</svg>
+
+<script src="script.js"></script>
+
+</body>
+</html>
